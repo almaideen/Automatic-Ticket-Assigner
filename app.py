@@ -1,10 +1,10 @@
+import nltk
+nltk.download('wordnet')
 import re
 import pickle
 import streamlit as st
 import warnings
 warnings.filterwarnings("ignore")
-import nltk
-nltk.download('wordnet', download_dir='/home/appuser/nltk_data')
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
